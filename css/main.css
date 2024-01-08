@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost&display=swap');
+
+/* font-family: 'DM Serif Display', serif;
+font-family: 'Jost', sans-serif; */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-image: url(../images/Line.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 1200px auto;
+}
+h1, h2, h3, h4, h5, h6, p, div{
+  margin: 0;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+img{
+  width: 100%;
+}
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* ---------- HEADER ------------ */
+header{
+  padding-top: 44px;
+}
+.logo img{
+  width: 34px;
+}
+.logo_title{
+  font-family: 'DM Serif Display', serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  color: #292F36;
+  margin-left: 10px;
+}
+nav .nav_list{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.nav_link{
+  font-family: 'Jost', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #292F36;
+}
+/* -------- HERO SECTION ------------ */
+.hero{
+  width: 100%;
+  margin-top: 45px;
+}
+.hero_img{
+  width: 100%;
+  height: 356px;
+  display: flex;
+  align-items: flex-end;
+  background-image: url(../images/hero/hero_background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 356px;
+}
+.about{
+  margin: 0 auto;
+  width: 503px;
+  height: 178px;
+  border-top-left-radius: 37px;
+  border-top-right-radius: 37px;
+  padding-top: 41px;
+  background-color: #FFFFFF;
+}
+.about_title{
+  text-align: center;
+  font-family: 'DM Serif Display', serif;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 63px;
+  color: #292F36;
+
+}
+.about_text{
+  text-align: center;
+  font-family: 'Jost', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.01em;
+  color: #4D5053;
+
+}
+/* HERO CONTENT */
+
+.hero_content{
+  padding-bottom: 173px;
+}
+
+.hero_content_quote{
+  width: 875.5px;
+  height: 428px;
+  margin: auto auto;
+  align-items: center;
+  padding: 67px 62px;
+  background-image: url(../images/hero/hero_content/hero_content_bk_left.svg), url(../images/hero/hero_content/hero_content_bk_right.svg);
+  background-repeat: no-repeat;
+  background-position: left, right;
+  background-size: 191px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.quote_{
+  font-family: 'DM Serif Display', serif;
+  font-size: 85px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 106px;
+  letter-spacing: 0.02em;
+  text-align: center;
+
+}
+.quote_text{
+  font-family: 'DM Serif Display', serif;
+  font-size: 35px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0.02em;
+  text-align: center;
+
+}
+.quote_person{
+  font-family: 'Jost', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-top: 34px;
+}
+
+
+.hero_content_info .info_title{
+  font-family: 'DM Serif Display', serif;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 63px;
+  letter-spacing: 0.02em;
+  color: #292F36;
+  margin-bottom: 23px;
+}
+.info_text{
+  font-family: 'Jost', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  width: 500px;
+  margin-bottom: 41px;
+}
+.info_btn{
+  display: inline-block;
+  padding: 26px 41px;
+  width: 228px;
+  font-family: 'Jost', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #292F36;
+  border-radius: 18px;
+
+}
+.info_btn img{
+  width: 15.14px;
+  margin-left: 14px;
+}
+.hero_content_img{
+  border-radius: 70px;
+  overflow: hidden;
+}
+.content_revers{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+.content_mb{
+  margin-bottom: 150px;
+}
+
+/* ----------- PEOPLE SECTION --------- */
+.people{
+  padding-top: 185px;
+  padding-bottom: 185px;
+  background-color: #F4F0EC;
+}
+.people_title{
+  font-family: 'DM Serif Display', serif;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 63px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  width: 547px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+
+}
+.people_card{
+  width: 283.55px;
+  height: 433px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.people_card_name{
+
+  font-family: 'DM Serif Display', serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-top: 70px;
+  
+
+}
+.people_card p{
+  font-family: 'Jost', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #292F36;
+}
+
+.people_card_list{
+  margin-top: 65px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 65px;
+}
+.bg{
+  background-color: #fff;
+}
+.call{
+  font-family: 'Jost', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #4D5053;
+  width: 222.27px;
+  margin: 0 auto;
+}
+
+/* ------- CREATEV PROJECT SECTION ----------- */
+.createv_project{
+  padding-top: 213px;
+  padding-bottom: 125px;
+  
+}
+.createv_project_title{
+  font-family: 'DM Serif Display', serif;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 63px;
+  letter-spacing: 0.02em;
+  width: 639px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 77px;
+
+}
+.form_group{
+  width: 796px;
+  height: 632px;
+  margin: 0 auto;
+  
+}
+#name{
+  width: 378px;
+  height: 45px;
+  border: none;
+  border-bottom: 1px solid #000000;
+}
+#email{
+  width: 378px;
+  height: 45px;
+  border: none;
+  border-bottom: 1px solid #000000;
+  margin-left: 36px;
+}
+#text{
+  width: 795px;
+  height: 175px;
+  border: none;
+  border-bottom: 1px solid #000000;
+  margin-bottom: 103px;
+  
+}
+.btn{
+  margin: 0 auto;
+  display: block;
+}
+
+
+/* ------------- FOOTER --------------- */
+.footer-row{
+  align-items: flex-start;
+  margin-top: 85px;
+  padding-bottom: 90px;
+  
+}
+
+.company_text{
+  font-family: 'Jost', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #4D5053;
+  width: 393px;
+  margin-bottom: 31px;
+}
+.company_media_list{
+  display: flex;
+  gap: 54px;
+}
+
+.footer_pages_link{
+  font-family: 'Jost', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 66px;
+  letter-spacing: 0.01em;
+  color: #4D5053;
+}
+.footer_pages_link.active{
+  font-family: 'DM Serif Display', serif;
+  color: #292F36;
+  line-height: normal;
+}
+
+.footer_contact_item{
+  margin-bottom: 26px;
+  width: 258px;
+}
+.footer_contact_link{
+  font-family: 'Jost', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #4D5053;
+
+
+}
+.footer_contact_link.active{
+  font-family: 'DM Serif Display', serif;
+  color: #292F36;
+}
+
+
+.footer_line{
+  background-image: url(../images/footer/Line_footer.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100% 1px;
+  width: 100%;
+  height: 5px;
+  
+}
+.footer_copyright{
+  /* height: 55px; */
+}
+
+.footer_copyright_text{
+  font-family: 'Jost', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #4D5053;
+  /* margin-bottom: 45px; */
+}
